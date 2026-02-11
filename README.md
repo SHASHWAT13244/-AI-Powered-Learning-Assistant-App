@@ -107,4 +107,58 @@ An AI-powered learning assistant built using the <b>MERN Stack (MongoDB, Express
 
 ---
 
+# 🏗️ Tech Stack
 
+## 🎨 Frontend
+- React.js  
+- Tailwind CSS  
+- Axios  
+- React Router DOM  
+- React PDF Viewer  
+
+## ⚙️ Backend
+- Node.js  
+- Express.js  
+- MongoDB  
+- Mongoose  
+- JWT Authentication  
+- Multer (File Upload Handling)  
+
+## 🤖 AI Integration
+- Google Gemini API  
+- Context-based prompt engineering  
+- Dynamic content generation  
+
+---
+
+# 🧠 System Architecture
+
+Client (React + Tailwind)
+↓
+Express Server (Node.js)
+↓
+MongoDB Database
+↓
+Google Gemini API
+
+
+## 🔄 Application Flow
+
+1. User uploads PDF  
+2. Server extracts text  
+3. Text stored in database  
+4. User asks question / generates summary / quiz  
+5. Backend sends context to Gemini API  
+6. AI response returned to frontend  
+
+---
+
+# 🔐 Authentication Flow
+
+1. User registers  
+2. Password hashed with bcrypt  
+3. JWT token generated  
+4. Token stored in localStorage  
+5. Protected routes validate token via middleware  
+
+---
